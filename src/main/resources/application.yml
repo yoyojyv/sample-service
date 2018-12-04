@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discUser:discUser@localhost:8080/eureka/
+
+server:
+  port: 8090
+
+spring:
+  application:
+    name: a-service
